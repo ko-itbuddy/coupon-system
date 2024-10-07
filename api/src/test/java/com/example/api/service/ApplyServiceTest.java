@@ -52,6 +52,8 @@ public class ApplyServiceTest {
 
         latch.await(); // 수정된 부분입니다.
 
+        Thread.sleep(10000);
+
         long count = couponRepository.count();
 
         assertThat(count).isEqualTo(100);
