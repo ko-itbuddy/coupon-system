@@ -14,6 +14,8 @@ public class Coupon {
 
     private Long userId;
 
+    private Long couponType;
+
     public Coupon(){
 
     }
